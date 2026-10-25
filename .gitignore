@@ -1,0 +1,26 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model and embedding caches (keep large downloaded artifacts out of Git)
+.cache/
+huggingface/
+gensim-data/
