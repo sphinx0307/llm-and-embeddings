@@ -1,12 +1,10 @@
-# Week 6 — Large Language Models & Embeddings
+# Large Language Models & Embeddings
 
-This repository contains the Jupyter Notebook solution for the IIT Week 6 Graded Mini Project on Large Language Models (LLMs) and embeddings.
-
-The notebook is included exactly as supplied by the author; it has not been edited during repository preparation.
+This repository contains the Jupyter Notebook on Large Language Models (LLMs) and embeddings.
 
 ## Project scope
 
-The assignment explores text generation, tokenisation, prompt engineering, word embeddings, sentence-level similarity, and a transformer application.
+This explores text generation, tokenisation, prompt engineering, word embeddings, sentence-level similarity, and a transformer application.
 
 ### Section A — LLM Foundations & Hugging Face
 - Loads the `distilgpt2` text-generation model.
@@ -15,7 +13,6 @@ The assignment explores text generation, tokenisation, prompt engineering, word 
 
 ### Section B — Prompt Engineering
 - Experiments with prompts for summarisation, factual question answering, and creative text generation.
-- The assignment asks for a 100–150 word reflection comparing how prompt rephrasing changes outputs. Check the notebook against this requirement before treating the submission as complete; the notebook is preserved unchanged in this repository.
 
 ### Section C — Embeddings with Gensim
 - Loads the `glove-wiki-gigaword-50` vectors through Gensim.
@@ -40,7 +37,7 @@ The assignment explores text generation, tokenisation, prompt engineering, word 
 
 ## Repository contents
 
-- `Week6.ipynb` — original assignment notebook, unchanged.
+- `llm_and_embeddings.ipynb` — original assignment notebook, unchanged.
 - `README.md` — project overview and setup instructions.
 - `requirements.txt` — Python package dependencies.
 - `.gitignore` — common Python/Jupyter exclusions.
@@ -72,7 +69,7 @@ These downloads require an internet connection and can take time. Model outputs 
 
 ## Limitations and reproducibility
 
-- This is an educational exploration notebook, not a deployed application.
+- This is not a deployed application.
 - The notebook was not modified as part of preparing this repository
 - Running the notebook requires installing the listed packages and downloading pretrained model/embedding files.
 
